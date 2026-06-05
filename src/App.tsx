@@ -676,9 +676,6 @@ export default function WeddingInvitation() {
 
                     <div className="space-y-5 mb-10">
                       <div className="flex flex-col items-center gap-2">
-                        <span className="text-[11px] tracking-[0.6em] font-bold text-[#2d5a27]/50">
-                          වධූ
-                        </span>
                         <h3 className="text-5xl md:text-7xl text-[#3f7a39] leading-none">
                           {INVITATION.couple.bride}
                         </h3>
@@ -696,9 +693,6 @@ export default function WeddingInvitation() {
 
                     <div className="space-y-5 mt-10">
                       <div className="flex flex-col items-center gap-2">
-                        <span className="text-[11px] tracking-[0.6em] font-bold text-[#2d5a27]/50">
-                          වරයා
-                        </span>
                         <h3 className="text-5xl md:text-7xl text-[#3f7a39] leading-none">
                           {INVITATION.couple.groom}
                         </h3>
@@ -729,7 +723,7 @@ export default function WeddingInvitation() {
                             වේලාව
                           </div>
                           <div className="text-sm md:text-base text-[#2d5a27] tracking-wide font-bold">
-                            පෝරු උත්සවය {INVITATION.time.ceremonyStart}ට
+                            පෝරුව චාරිත්‍ර {INVITATION.time.ceremonyStart}ට
                           </div>
                         </div>
                       </div>
@@ -1019,7 +1013,7 @@ export default function WeddingInvitation() {
                             </div>
                             <div className="space-y-1">
                               <h4 className="text-[#2d5a27]/40 font-bold text-xs tracking-[0.5em]">
-                                පෝරු උත්සවය
+                                පෝරුව චාරිත්‍ර
                               </h4>
                               <p className="text-xl md:text-2xl text-[#2d5a27] leading-relaxed tracking-wide font-bold">
                                 {INVITATION.time.ceremonyStart}
